@@ -1,0 +1,295 @@
+
+/*!!
+* Verknuepfung1 : Wartungspersonal
+* Verknuepfung2 : Drehschiebeverdichter
+* Verknuepfung1 : Wartungspersonal
+* Verknuepfung2 : Wartung des Verdichters
+* Verknuepfung1 : Unternehmer
+* Verknuepfung2 : Drehschiebeverdichter
+* Verknuepfung1 : Anlagenbetreiber
+* Verknuepfung2 : Drehschiebeverdichter
+* Verknuepfung1 : Anlagenbetreiber
+* Verknuepfung2 : Abfahren des Verdichters im "Notfall" oder Fall 'Not-Aus'
+* Verknuepfung1 : Bediener
+* Verknuepfung2 : Komprimieren von Wasser [gasförmig]
+* Verknuepfung1 : Bediener
+* Verknuepfung2 : Abfahren des Verdichters im "Notfall" oder Fall 'Not-Aus'
+* Verknuepfung1 : Bediener
+* Verknuepfung2 : Drehschiebeverdichter
+* Verknuepfung1 : Bediener
+* Verknuepfung2 : Überwachung der Parameter des Verdichters
+* Verknuepfung1 : Anlagenbeobachter
+* Verknuepfung2 : Abfahren des Verdichters im "Notfall" oder Fall 'Not-Aus'
+* Verknuepfung1 : Anlagenbeobachter
+* Verknuepfung2 : Überwachung der Parameter des Verdichters
+* Verknuepfung1 : Anlagenbeobachter
+* Verknuepfung2 : Drehschiebeverdichter
+* Verknuepfung1 : Gesetzgeber
+* Verknuepfung2 : Drehschiebeverdichter
+* Verknuepfung1 : Gesetzgeber
+* Verknuepfung2 : Überwachung der Parameter des Verdichters
+* Verknuepfung1 : Gesetzgeber
+* Verknuepfung2 : Abfahren des Verdichters im "Notfall" oder Fall 'Not-Aus'
+* Verknuepfung1 : FDA
+* Verknuepfung2 : Drehschiebeverdichter
+* Verknuepfung1 : Absoptionsturm
+* Verknuepfung2 : Wärmetauscher 
+* Verknuepfung1 : Wärmetauscher 
+* Verknuepfung2 : Vorwärmer 
+* Verknuepfung1 : Fallfilmverdampfer 
+* Verknuepfung2 : Wärmetauscher 
+* Verknuepfung1 : Vorwärmer 
+* Verknuepfung2 : Fallfilmverdampfer 
+* Verknuepfung1 : Fallfilmverdampfer 
+* Verknuepfung2 : Zielumgebung
+* Verknuepfung1 : Fallfilmverdampfer 
+* Verknuepfung2 : Drehschiebeverdichter
+* Verknuepfung1 : Fallfilmverdampfer 
+* Verknuepfung2 : Absoptionsturm
+* Verknuepfung1 : Fallfilmverdampfer 
+* Verknuepfung2 : Drehschiebeverdichter
+* Verknuepfung1 : Fallfilmverdampfer 
+* Verknuepfung2 : Drehschiebeverdichter
+* Verknuepfung1 : Drehschiebeverdichter
+* Verknuepfung2 : Fallfilmverdampfer 
+* Verknuepfung1 : Fallfilmverdampfer 
+* Verknuepfung2 : Drehschiebeverdichter
+* Verknuepfung1 : Umgebung / Umfeld
+* Verknuepfung2 : Absoptionsturm
+* Verknuepfung1 : Antrieb
+* Verknuepfung2 : Drehschiebeverdichter
+* Verknuepfung1 : Wartung des Verdichters
+* Verknuepfung2 : mobiler Betrieb des Verdichters
+* Verknuepfung1 : Wartung des Verdichters
+* Verknuepfung2 : stationärer Betrieb des Verdichters
+* Verknuepfung1 : Überwachung der Kenngrößen nach der Komprimierung
+* Verknuepfung2 : Überwachung von Temperatur
+* Verknuepfung1 : Überwachung der Parameter des Verdichters
+* Verknuepfung2 : Überwachung der Kenngrößen nach der Komprimierung
+* Verknuepfung1 : stationärer Betrieb des Verdichters
+* Verknuepfung2 : Überwachung der Kenngrößen nach der Komprimierung
+* Verknuepfung1 : Überwachung der Kenngrößen nach der Komprimierung
+* Verknuepfung2 : Überwachung von Druck
+* Verknuepfung1 : mobiler Betrieb des Verdichters
+* Verknuepfung2 : Überwachung der Kenngrößen nach der Komprimierung
+* Verknuepfung1 : Überwachung von Kenngrößen vor der Komprimierung
+* Verknuepfung2 : Überwachung von Temperatur
+* Verknuepfung1 : Überwachung von Temperatur
+* Verknuepfung2 : Abfahren des Verdichters im "Notfall" oder Fall 'Not-Aus'
+* Verknuepfung1 : Überwachung von Drehzahl 
+* Verknuepfung2 : Abfahren des Verdichters im "Notfall" oder Fall 'Not-Aus'
+* Verknuepfung1 : Überwachung von Kenngrößen vor der Komprimierung
+* Verknuepfung2 : Überwachung von Drehzahl 
+* Verknuepfung1 : Überwachung der Parameter des Verdichters
+* Verknuepfung2 : Überwachung von Kenngrößen vor der Komprimierung
+* Verknuepfung1 : Komprimieren von Wasser [gasförmig]
+* Verknuepfung2 : Überwachung der Parameter des Verdichters
+* Verknuepfung1 : stationärer Betrieb des Verdichters
+* Verknuepfung2 : Anfahren des Verdichters
+* Verknuepfung1 : mobiler Betrieb des Verdichters
+* Verknuepfung2 : Anfahren des Verdichters
+* Verknuepfung1 : stationärer Betrieb des Verdichters
+* Verknuepfung2 : Überwachung von Kenngrößen vor der Komprimierung
+* Verknuepfung1 : Überwachung von Kenngrößen vor der Komprimierung
+* Verknuepfung2 : Überwachung von Druck
+* Verknuepfung1 : mobiler Betrieb des Verdichters
+* Verknuepfung2 : Überwachung von Kenngrößen vor der Komprimierung
+* Verknuepfung1 : Komprimieren von Wasser [gasförmig]
+* Verknuepfung2 : stationärer Betrieb des Verdichters
+* Verknuepfung1 : Komprimieren von Wasser [gasförmig]
+* Verknuepfung2 : mobiler Betrieb des Verdichters
+* Verknuepfung1 : Abfahren des Verdichters
+* Verknuepfung2 : Abfahren des Verdichters im "Notfall" oder Fall 'Not-Aus'
+* Verknuepfung1 : Überwachung von Druck
+* Verknuepfung2 : Abfahren des Verdichters im "Notfall" oder Fall 'Not-Aus'
+* Verknuepfung1 : stationärer Betrieb des Verdichters
+* Verknuepfung2 : Abfahren des Verdichters
+* Verknuepfung1 : mobiler Betrieb des Verdichters
+* Verknuepfung2 : Abfahren des Verdichters
+* Verknuepfung1 : mobiler Betrieb des Verdichters
+* Verknuepfung2 : Bauraum
+* Verknuepfung1 : mobiler Betrieb des Verdichters
+* Verknuepfung2 : Gewicht
+* Verknuepfung1 : mobiler Betrieb des Verdichters
+* Verknuepfung2 : Zugaenglichkeit
+* Verknuepfung1 : mobiler Betrieb des Verdichters
+* Verknuepfung2 : Aufbau/ Installation
+* Verknuepfung1 : Einlassdruck
+* Verknuepfung2 : Druckparameter
+* Verknuepfung1 : Gewicht
+* Verknuepfung2 : Montage/ Abbau
+* Verknuepfung1 : mobiler Betrieb des Verdichters
+* Verknuepfung2 : Gewicht
+* Verknuepfung1 : jahreszeitliche Prozessaenderungen
+* Verknuepfung2 :  variable Foerdermenge
+* Verknuepfung1 : Abdichtung
+* Verknuepfung2 : Materialeigenschaften
+* Verknuepfung1 :  Temperaturbestaendigkeit
+* Verknuepfung2 : Materialeigenschaften
+* Verknuepfung1 : Verschleissarmut
+* Verknuepfung2 : Materialeigenschaften
+* Verknuepfung1 : Schmierung
+* Verknuepfung2 : Materialeigenschaften
+* Verknuepfung1 : Oelfreiheit
+* Verknuepfung2 : Materialeigenschaften
+* Verknuepfung1 : mobiler Betrieb des Verdichters
+* Verknuepfung2 : Bauraum
+* Verknuepfung1 : Bauraum
+* Verknuepfung2 : Montage/ Abbau
+* Verknuepfung1 : Betriebsarten
+* Verknuepfung2 : Betriebseigenschaften
+* Verknuepfung1 :  variable Foerdermenge
+* Verknuepfung2 : Betriebseigenschaften
+* Verknuepfung1 : Aufbau/ Installation
+* Verknuepfung2 : Montage/ Abbau
+* Verknuepfung1 : Zugaenglichkeit
+* Verknuepfung2 : Montage/ Abbau
+* Verknuepfung1 : Druckparameter
+* Verknuepfung2 : Betriebseigenschaften
+* Verknuepfung1 : Ueberwachung
+* Verknuepfung2 : Betriebseigenschaften
+* Verknuepfung1 : Ueberwachung vor dem Komprimieren
+* Verknuepfung2 : Ueberwachung
+* Verknuepfung1 : Ueberwachung nach dem Komprimieren 
+* Verknuepfung2 : Ueberwachung
+* Verknuepfung1 : Druckerhoehung
+* Verknuepfung2 : Druckparameter
+* Verknuepfung1 : mobiler Betrieb des Verdichters
+* Verknuepfung2 : Zugaenglichkeit
+* Verknuepfung1 : mobiler Betrieb des Verdichters
+* Verknuepfung2 : Aufbau/ Installation
+* Verknuepfung1 : Ueberwachung nach dem Komprimieren 
+* Verknuepfung2 : Ueberwachung
+* Verknuepfung1 : Gewicht
+* Verknuepfung2 : Montage/ Abbau
+* Verknuepfung1 : Bauraum
+* Verknuepfung2 : Montage/ Abbau
+* Verknuepfung1 : Verschleissarmut
+* Verknuepfung2 : Materialeigenschaften
+* Verknuepfung1 : Schmierung
+* Verknuepfung2 : Materialeigenschaften
+* Verknuepfung1 : Abdichtung
+* Verknuepfung2 : Materialeigenschaften
+* Verknuepfung1 : Oelfreiheit
+* Verknuepfung2 : Materialeigenschaften
+* Verknuepfung1 :  Temperaturbestaendigkeit
+* Verknuepfung2 : Materialeigenschaften
+* Verknuepfung1 : Zugaenglichkeit
+* Verknuepfung2 : Montage/ Abbau
+* Verknuepfung1 : Aufbau/ Installation
+* Verknuepfung2 : Montage/ Abbau
+* Verknuepfung1 : Druckerhoehung
+* Verknuepfung2 : Druckparameter
+* Verknuepfung1 : Druckparameter
+* Verknuepfung2 : Betriebseigenschaften
+* Verknuepfung1 : Ueberwachung
+* Verknuepfung2 : Betriebseigenschaften
+* Verknuepfung1 : Betriebsarten
+* Verknuepfung2 : Betriebseigenschaften
+* Verknuepfung1 :  variable Foerdermenge
+* Verknuepfung2 : Betriebseigenschaften
+* Verknuepfung1 : Ueberwachung vor dem Komprimieren
+* Verknuepfung2 : Ueberwachung
+* Verknuepfung1 : jahreszeitliche Prozessaenderungen
+* Verknuepfung2 :  variable Foerdermenge
+* Verknuepfung1 : Einlassdruck
+* Verknuepfung2 : Druckparameter
+* Verknuepfung1 : Komprimieren von Wasser [gasförmig]
+* Verknuepfung2 : stationärer Betrieb des Verdichters
+* Verknuepfung1 : Komprimieren von Wasser [gasförmig]
+* Verknuepfung2 : mobiler Betrieb des Verdichters
+* Verknuepfung1 : Komprimieren von Wasser [gasförmig]
+* Verknuepfung2 : Überwachung der Parameter des Verdichters
+* Verknuepfung1 : Überwachung der Kenngrößen nach der Komprimierung
+* Verknuepfung2 : Überwachung von Temperatur
+* Verknuepfung1 : Überwachung von Kenngrößen vor der Komprimierung
+* Verknuepfung2 : Überwachung von Temperatur
+* Verknuepfung1 : Überwachung von Temperatur
+* Verknuepfung2 : Abfahren des Verdichters im "Notfall" oder Fall 'Not-Aus'
+* Verknuepfung1 : Überwachung von Kenngrößen vor der Komprimierung
+* Verknuepfung2 : Überwachung von Druck
+* Verknuepfung1 : Überwachung der Kenngrößen nach der Komprimierung
+* Verknuepfung2 : Überwachung von Druck
+* Verknuepfung1 : Überwachung von Druck
+* Verknuepfung2 : Abfahren des Verdichters im "Notfall" oder Fall 'Not-Aus'
+* Verknuepfung1 : stationärer Betrieb des Verdichters
+* Verknuepfung2 : Anfahren des Verdichters
+* Verknuepfung1 : mobiler Betrieb des Verdichters
+* Verknuepfung2 : Anfahren des Verdichters
+* Verknuepfung1 : mobiler Betrieb des Verdichters
+* Verknuepfung2 : Überwachung der Kenngrößen nach der Komprimierung
+* Verknuepfung1 : mobiler Betrieb des Verdichters
+* Verknuepfung2 : Abfahren des Verdichters
+* Verknuepfung1 : mobiler Betrieb des Verdichters
+* Verknuepfung2 : Überwachung von Kenngrößen vor der Komprimierung
+* Verknuepfung1 : Wartung des Verdichters
+* Verknuepfung2 : mobiler Betrieb des Verdichters
+* Verknuepfung1 : stationärer Betrieb des Verdichters
+* Verknuepfung2 : Abfahren des Verdichters
+* Verknuepfung1 : Wartung des Verdichters
+* Verknuepfung2 : stationärer Betrieb des Verdichters
+* Verknuepfung1 : stationärer Betrieb des Verdichters
+* Verknuepfung2 : Überwachung von Kenngrößen vor der Komprimierung
+* Verknuepfung1 : stationärer Betrieb des Verdichters
+* Verknuepfung2 : Überwachung der Kenngrößen nach der Komprimierung
+* Verknuepfung1 : Überwachung von Kenngrößen vor der Komprimierung
+* Verknuepfung2 : Überwachung von Drehzahl 
+* Verknuepfung1 : Überwachung von Drehzahl 
+* Verknuepfung2 : Abfahren des Verdichters im "Notfall" oder Fall 'Not-Aus'
+* Verknuepfung1 : Überwachung der Parameter des Verdichters
+* Verknuepfung2 : Überwachung von Kenngrößen vor der Komprimierung
+* Verknuepfung1 : Überwachung der Parameter des Verdichters
+* Verknuepfung2 : Überwachung der Kenngrößen nach der Komprimierung
+* Verknuepfung1 : Abfahren des Verdichters
+* Verknuepfung2 : Abfahren des Verdichters im "Notfall" oder Fall 'Not-Aus'
+* Verknuepfung1 : Kopfteil Schieber
+* Verknuepfung2 : Schieber
+* Verknuepfung1 : Fallfilmverdampfer Druckkammer
+* Verknuepfung2 : none
+* Verknuepfung1 : Fallfilmverdampfer Druckkammer
+* Verknuepfung2 : none
+* Verknuepfung1 : Fallfilmverdampfer Druckkammer
+* Verknuepfung2 : none
+* Verknuepfung1 : Loslager
+* Verknuepfung2 : Gehäuse
+* Verknuepfung1 : none
+* Verknuepfung2 : Fallfilmverdampfer Druckkammer
+* Verknuepfung1 : Fallfilmverdampfer Druckkammer
+* Verknuepfung2 : none
+* Verknuepfung1 : none
+* Verknuepfung2 : Fallfilmverdampfer Wärmetäuscher
+* Verknuepfung1 : none
+* Verknuepfung2 : none
+* Verknuepfung1 : none
+* Verknuepfung2 : none
+* Verknuepfung1 : none
+* Verknuepfung2 : none
+* Verknuepfung1 : Schieber
+* Verknuepfung2 : Drehschiebeverdichter
+* Verknuepfung1 : Rotor
+* Verknuepfung2 : Drehschiebeverdichter
+* Verknuepfung1 : Gehäuse
+* Verknuepfung2 : Drehschiebeverdichter
+* Verknuepfung1 : Welle
+* Verknuepfung2 : Drehschiebeverdichter
+* Verknuepfung1 : Hohlzylinder
+* Verknuepfung2 : Drehschiebeverdichter
+* Verknuepfung1 : none
+* Verknuepfung2 : Fallfilmverdampfer Wärmetäuscher
+* Verknuepfung1 : none
+* Verknuepfung2 : Fallfilmverdampfer Wärmetäuscher
+* Verknuepfung1 : Antrieb
+* Verknuepfung2 : none
+* Verknuepfung1 : Rotorhohlzylinder
+* Verknuepfung2 : Rotor
+* Verknuepfung1 : Schiebersteg
+* Verknuepfung2 : Schieber
+* Verknuepfung1 : Festlager
+* Verknuepfung2 : Gehäuse
+* Verknuepfung1 : Flansch
+* Verknuepfung2 : Hohlzylinder
+* Verknuepfung1 : Dichtmedium
+* Verknuepfung2 : none
+*/!!
+
+*/ Ende der Ausgabe

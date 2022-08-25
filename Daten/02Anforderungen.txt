@@ -1,0 +1,139 @@
+
+/*!!
+* Anfoderung1 : 
+* Anfoderung2 : Test import leer
+* Anfoderung1 : Der Drehschiebderverdichter muss eine Abdichtung mit dem Medium Wasser vorsehen.
+Neue Anforderungen: 
+Test
+* Anfoderung2 : Einlassdruck
+* Anfoderung1 : Das Gewicht des Verdichters soll ohne Kran verladen werden  können.
+* Anfoderung2 : Gewicht
+* Anfoderung1 : Der Verdichter muss eine gute Regelbarkeit hinsichtlich jahreszeitlicher Prozessänderungen aufweisen.
+* Anfoderung2 : jahreszeitliche Prozessaenderungen
+* Anfoderung1 : Der Drehschiebeverdichter muss eine Abdichtung mit dem Medium Wasser vorsehen.
+* Anfoderung2 : Abdichtung
+* Anfoderung1 : 
+* Anfoderung2 : Materialeigenschaften
+* Anfoderung1 : Der Verdichter muss eine Eigenschmierung mit Wasser vorsehen.
+* Anfoderung2 : Schmierung
+* Anfoderung1 : 
+* Anfoderung2 : Ueberwachung der Ausgangstemperatur
+* Anfoderung1 : Der Verdichter soll den Bauraum einer Europalette haben. 1200mm*800mm
+* Anfoderung2 : Bauraum
+* Anfoderung1 : Für den Betrieb des Verdichters sollen mehrere Betriebsarten verfügbar sein.
+* Anfoderung2 : Betriebsarten
+* Anfoderung1 : Der Verdichter soll einen Massenstrom von 50  kg/h bis ... garantieren.
+Bei 0.53 kg/m³ entspricht dies knapp von  94m³/h bis... 
+Der Bereich befindet sich im Kleinmengenförderbereich.
+* Anfoderung2 :  variable Foerdermenge
+* Anfoderung1 : 
+* Anfoderung2 : Ueberwachung des Eingangsdruckes
+* Anfoderung1 : Der Verdichter verzichtet auf jede Art von Öl.
+* Anfoderung2 : Oelfreiheit
+* Anfoderung1 : 
+* Anfoderung2 : Montage/ Abbau
+* Anfoderung1 : Die Werkstoffe des Verdichters müssen gegen die Sattdampftemperatur beständig sein (120°C)
+* Anfoderung2 :  Temperaturbestaendigkeit
+* Anfoderung1 : Der Verdichter muss mehrere Betriebspunkte besitzen.
+* Anfoderung2 : Variable Foerdermenge im Betrieb
+* Anfoderung1 : Die Fördermenge muss im Betrieb des Verdichters variabel anpassbar sein.
+* Anfoderung2 : einstellbare Foerdermenge
+* Anfoderung1 : Der Verdichter muss einen mobilen Betrieb ermöglichen.
+* Anfoderung2 : Betriebsart mobiler Betrieb
+* Anfoderung1 : Der Verdichter muss einen Auslassdruck von 1.0 bar gewährleisten.
+* Anfoderung2 : Auslassdruck
+* Anfoderung1 : 
+* Anfoderung2 : Betriebseigenschaften
+* Anfoderung1 : 
+* Anfoderung2 : Ueberwachung vor dem Komprimieren
+* Anfoderung1 : Während des Betriebes des Verdichters müssen diverse Kenngrößen überwacht werden.
+* Anfoderung2 : Ueberwachung
+* Anfoderung1 : 
+* Anfoderung2 : Druckparameter
+* Anfoderung1 : 
+* Anfoderung2 : Ueberwachung von Drehzahl [Leistung]
+* Anfoderung1 : 
+* Anfoderung2 : Ueberwachung nach dem Komprimieren 
+* Anfoderung1 : Der Verdichter muss einen stationären Betrieb ermöglichen.
+* Anfoderung2 : Betriebsart stationaerer Betrieb
+* Anfoderung1 : Der Verdichter muss eine Druckerhöhung von mindestens 1.5 bar garantieren.
+* Anfoderung2 : Druckerhoehung
+* Anfoderung1 : Der Verdichter soll eine einfache Zugänglichkeit aufweisen.
+
+* Anfoderung2 : Zugaenglichkeit
+* Anfoderung1 : Der Verdichter soll leicht zu installieren sein, da er auch für den mobilen Betrieb vorgesehen ist.
+* Anfoderung2 : Aufbau/ Installation
+* Anfoderung1 : Die gewählte Materialien für den Verdichter sollen verschleißarm sein.
+* Anfoderung2 : Verschleissarmut
+* Anfoderung1 : 
+* Anfoderung2 : Ueberwachung des Ausgangsdruckes
+* Anfoderung1 : 
+* Anfoderung2 : Ueberwachung der Eingangstemperatur
+* Anfoderung1 : 
+* Anfoderung2 : Ueberwachung nach dem Komprimieren 
+* Anfoderung1 : Der Verdichter muss einen mobilen Betrieb ermöglichen.
+* Anfoderung2 : Betriebsart mobiler Betrieb
+* Anfoderung1 : Die Fördermenge muss im Betrieb des Verdichters variabel anpassbar sein.
+* Anfoderung2 : einstellbare Foerdermenge
+* Anfoderung1 : Das Gewicht des Verdichters soll ohne Kran verladen werden  können.
+* Anfoderung2 : Gewicht
+* Anfoderung1 : 
+* Anfoderung2 : Ueberwachung von Drehzahl [Leistung]
+* Anfoderung1 : Der Verdichter soll den Bauraum einer Europalette haben. 1200mm*800mm
+* Anfoderung2 : Bauraum
+* Anfoderung1 : 
+* Anfoderung2 : Materialeigenschaften
+* Anfoderung1 : Der Verdichter soll eine einfache Zugänglichkeit aufweisen.
+
+* Anfoderung2 : Zugaenglichkeit
+* Anfoderung1 : 
+* Anfoderung2 : Montage/ Abbau
+* Anfoderung1 : Der Verdichter muss eine Druckerhöhung von mindestens 1.5 bar garantieren.
+* Anfoderung2 : Druckerhoehung
+* Anfoderung1 : Der Verdichter muss einen stationären Betrieb ermöglichen.
+* Anfoderung2 : Betriebsart stationaerer Betrieb
+* Anfoderung1 : 
+* Anfoderung2 : Betriebseigenschaften
+* Anfoderung1 : Der Verdichter verzichtet auf jede Art von Öl.
+* Anfoderung2 : Oelfreiheit
+* Anfoderung1 : Während des Betriebes des Verdichters müssen diverse Kenngrößen überwacht werden.
+* Anfoderung2 : Ueberwachung
+* Anfoderung1 : Der Verdichter muss eine gute Regelbarkeit hinsichtlich jahreszeitlicher Prozessänderungen aufweisen.
+* Anfoderung2 : jahreszeitliche Prozessaenderungen
+* Anfoderung1 : 
+* Anfoderung2 : Druckparameter
+* Anfoderung1 : Der Verdichter soll einen Massenstrom von 50  kg/h bis ... garantieren.
+Bei 0.53 kg/m³ entspricht dies knapp von  94m³/h bis... 
+Der Bereich befindet sich im Kleinmengenförderbereich.
+* Anfoderung2 :  variable Foerdermenge
+* Anfoderung1 : Der Drehschiebderverdichter muss eine Abdichtung mit dem Medium Wasser vorsehen.
+* Anfoderung2 : Einlassdruck
+* Anfoderung1 : Der Verdichter muss mehrere Betriebspunkte besitzen.
+* Anfoderung2 : Variable Foerdermenge im Betrieb
+* Anfoderung1 : Der Drehschiebeverdichter muss eine Abdichtung mit dem Medium Wasser vorsehen.
+* Anfoderung2 : Abdichtung
+* Anfoderung1 : Der Verdichter muss eine Eigenschmierung mit Wasser vorsehen.
+* Anfoderung2 : Schmierung
+* Anfoderung1 : 
+* Anfoderung2 : Ueberwachung des Eingangsdruckes
+* Anfoderung1 : 
+* Anfoderung2 : Ueberwachung vor dem Komprimieren
+* Anfoderung1 : Der Verdichter muss einen Auslassdruck von 1.0 bar gewährleisten.
+* Anfoderung2 : Auslassdruck
+* Anfoderung1 : Für den Betrieb des Verdichters sollen mehrere Betriebsarten verfügbar sein.
+* Anfoderung2 : Betriebsarten
+* Anfoderung1 : Die gewählte Materialien für den Verdichter sollen verschleißarm sein.
+* Anfoderung2 : Verschleissarmut
+* Anfoderung1 : 
+* Anfoderung2 : Ueberwachung der Eingangstemperatur
+* Anfoderung1 : Der Verdichter soll leicht zu installieren sein, da er auch für den mobilen Betrieb vorgesehen ist.
+* Anfoderung2 : Aufbau/ Installation
+* Anfoderung1 : 
+* Anfoderung2 : Ueberwachung des Ausgangsdruckes
+* Anfoderung1 : 
+* Anfoderung2 : Ueberwachung der Ausgangstemperatur
+* Anfoderung1 : Die Werkstoffe des Verdichters müssen gegen die Sattdampftemperatur beständig sein (120°C)
+* Anfoderung2 :  Temperaturbestaendigkeit
+*/!!
+
+*/ Ende der Ausgabe

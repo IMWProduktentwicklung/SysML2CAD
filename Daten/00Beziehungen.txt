@@ -1,0 +1,101 @@
+
+/*!!
+* Beziehung1 : komprimieren von Wasser [gasförmig]
+* Beziehung2 : Einlassdruck
+* Beziehung1 : komprimieren von Wasser [gasförmig]
+* Beziehung2 : Auslassdruck
+* Beziehung1 : komprimieren von Wasser [gasförmig]
+* Beziehung2 : Druckerhoehung
+* Beziehung1 : komprimieren von Wasser [gasförmig]
+* Beziehung2 : Komprimieren von Wasser [gasförmig]
+* Beziehung1 : komprimieren von Wasser [gasförmig]
+* Beziehung2 : Variable Foerdermenge im Betrieb
+* Beziehung1 : Überwachung der Kenngrößen nach der Komprimierung
+* Beziehung2 : Ueberwachung des Ausgangsdruckes
+* Beziehung1 : dichten des Hohlzylinders
+* Beziehung2 : Oelfreiheit
+* Beziehung1 : dichten des Hohlzylinders
+* Beziehung2 : Abdichtung
+* Beziehung1 : schmieren des Hohlzylinders
+* Beziehung2 : Schmierung
+* Beziehung1 : mobiler Betrieb des Verdichters
+* Beziehung2 : Variable Foerdermenge im Betrieb
+* Beziehung1 : mobiler Betrieb des Verdichters
+* Beziehung2 : einstellbare Foerdermenge
+* Beziehung1 : mobiler Betrieb des Verdichters
+* Beziehung2 : Betriebsart mobiler Betrieb
+* Beziehung1 : komprimieren von Wasser [gasförmig] [Rotor]
+* Beziehung2 : Einlassdruck
+* Beziehung1 : Einlassdruck
+* Beziehung2 : Auslassdruck
+* Beziehung1 : dichten des Hohlzylinders
+* Beziehung2 : Abdichtung
+* Beziehung1 : schmieren des Hohlzylinders
+* Beziehung2 : Schmierung
+* Beziehung1 : Ueberwachung nach dem Komprimieren 
+* Beziehung2 : Ueberwachung der Ausgangstemperatur
+* Beziehung1 : Betriebsarten
+* Beziehung2 : Betriebsart stationaerer Betrieb
+* Beziehung1 : Betriebsarten
+* Beziehung2 : Betriebsart mobiler Betrieb
+* Beziehung1 :  variable Foerdermenge
+* Beziehung2 : Variable Foerdermenge im Betrieb
+* Beziehung1 :  variable Foerdermenge
+* Beziehung2 : einstellbare Foerdermenge
+* Beziehung1 : Ueberwachung vor dem Komprimieren
+* Beziehung2 : Ueberwachung des Eingangsdruckes
+* Beziehung1 : dichten des Hohlzylinders
+* Beziehung2 : Oelfreiheit
+* Beziehung1 : mobiler Betrieb des Verdichters
+* Beziehung2 : Variable Foerdermenge im Betrieb
+* Beziehung1 : komprimieren von Wasser [gasförmig] [Rotor]
+* Beziehung2 : Variable Foerdermenge im Betrieb
+* Beziehung1 : mobiler Betrieb des Verdichters
+* Beziehung2 : einstellbare Foerdermenge
+* Beziehung1 : mobiler Betrieb des Verdichters
+* Beziehung2 : Betriebsart mobiler Betrieb
+* Beziehung1 : komprimieren von Wasser [gasförmig] [Rotor]
+* Beziehung2 : Auslassdruck
+* Beziehung1 : Auslassdruck
+* Beziehung2 : Ueberwachung des Ausgangsdruckes
+* Beziehung1 : Druckerhoehung
+* Beziehung2 : Auslassdruck
+* Beziehung1 : Ueberwachung vor dem Komprimieren
+* Beziehung2 : Ueberwachung der Eingangstemperatur
+* Beziehung1 : Ueberwachung vor dem Komprimieren
+* Beziehung2 : Ueberwachung von Drehzahl [Leistung]
+* Beziehung1 : Ueberwachung nach dem Komprimieren 
+* Beziehung2 : Ueberwachung des Ausgangsdruckes
+* Beziehung1 : komprimieren von Wasser [gasförmig] [Rotor]
+* Beziehung2 : Druckerhoehung
+* Beziehung1 : Überwachung der Kenngrößen nach der Komprimierung
+* Beziehung2 : Ueberwachung des Ausgangsdruckes
+* Beziehung1 : Ueberwachung nach dem Komprimieren 
+* Beziehung2 : Ueberwachung der Ausgangstemperatur
+* Beziehung1 : Ueberwachung nach dem Komprimieren 
+* Beziehung2 : Ueberwachung des Ausgangsdruckes
+* Beziehung1 : Betriebsarten
+* Beziehung2 : Betriebsart mobiler Betrieb
+* Beziehung1 :  variable Foerdermenge
+* Beziehung2 : einstellbare Foerdermenge
+* Beziehung1 : Ueberwachung vor dem Komprimieren
+* Beziehung2 : Ueberwachung von Drehzahl [Leistung]
+* Beziehung1 : Druckerhoehung
+* Beziehung2 : Auslassdruck
+* Beziehung1 : Betriebsarten
+* Beziehung2 : Betriebsart stationaerer Betrieb
+* Beziehung1 :  variable Foerdermenge
+* Beziehung2 : Variable Foerdermenge im Betrieb
+* Beziehung1 : Einlassdruck
+* Beziehung2 : Auslassdruck
+* Beziehung1 : Ueberwachung vor dem Komprimieren
+* Beziehung2 : Ueberwachung des Eingangsdruckes
+* Beziehung1 : Ueberwachung vor dem Komprimieren
+* Beziehung2 : Ueberwachung der Eingangstemperatur
+* Beziehung1 : Auslassdruck
+* Beziehung2 : Ueberwachung des Ausgangsdruckes
+* Beziehung1 : komprimieren von Wasser [gasförmig] [Rotor]
+* Beziehung2 : Komprimieren von Wasser [gasförmig]
+*/!!
+
+*/ Ende der Ausgabe

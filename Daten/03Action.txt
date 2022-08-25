@@ -1,0 +1,77 @@
+
+/*!!
+* Verknuepfung1 : Activity3
+* Verknuepfung2 : Hohlzylinder
+* Verknuepfung1 : Schieberauslenkung  verändern
+* Verknuepfung2 : Schieber
+* Verknuepfung1 : komprimieren von Wasser [gasförmig]
+* Verknuepfung2 : Schieber
+* Verknuepfung1 : führen der Schieber
+* Verknuepfung2 : Hohlzylinder
+* Verknuepfung1 : Drehmoment übertragen
+* Verknuepfung2 : Rotor
+* Verknuepfung1 : rotieren der Schieber
+* Verknuepfung2 : Schieber
+* Verknuepfung1 : dichten des Hohlzylinders
+* Verknuepfung2 : Hohlzylinder
+* Verknuepfung1 : schmieren des Hohlzylinders
+* Verknuepfung2 : Hohlzylinder
+* Verknuepfung1 : komprimieren von
+* Verknuepfung2 : Hohlzylinder
+* Verknuepfung1 : rotieren des Hohlzylinders
+* Verknuepfung2 : Hohlzylinder
+* Verknuepfung1 : Activity2
+* Verknuepfung2 : Schieber
+* Verknuepfung1 : Verdichten ac
+* Verknuepfung2 : None
+* Verknuepfung1 : Hohlzylinder
+* Verknuepfung2 : Verdichten ac
+* Verknuepfung1 : Normalkraft auf die Schieber wird erhöht
+* Verknuepfung2 : Schieber
+* Verknuepfung1 : Rotor
+* Verknuepfung2 : Verdichten ac
+* Verknuepfung1 : Schieber
+* Verknuepfung2 : Verdichten ac
+* Verknuepfung1 : verringern der Zellengröße
+* Verknuepfung2 : Hohlzylinder
+* Verknuepfung1 : Schieberauslenkung  verändern
+* Verknuepfung2 : Schieber
+* Verknuepfung1 : Hohlzylinder
+* Verknuepfung2 : Verdichten ac
+* Verknuepfung1 : Rotor
+* Verknuepfung2 : Verdichten ac
+* Verknuepfung1 : führen der Schieber
+* Verknuepfung2 : Hohlzylinder
+* Verknuepfung1 : Activity3
+* Verknuepfung2 : Hohlzylinder
+* Verknuepfung1 : verringern der Zellengröße
+* Verknuepfung2 : Hohlzylinder
+* Verknuepfung1 : rotieren der Schieber
+* Verknuepfung2 : Schieber
+* Verknuepfung1 : komprimieren von Wasser [gasförmig] [Hohlzylinder]
+* Verknuepfung2 : Hohlzylinder
+* Verknuepfung1 : komprimieren von Wasser [gasförmig] [Rotor]
+* Verknuepfung2 : Rotor
+* Verknuepfung1 : Normalkraft auf die Schieber wird erhöht
+* Verknuepfung2 : Schieber
+* Verknuepfung1 : schmieren des Hohlzylinders
+* Verknuepfung2 : Hohlzylinder
+* Verknuepfung1 : Drehmoment übertragen
+* Verknuepfung2 : Rotor
+* Verknuepfung1 : komprimieren von
+* Verknuepfung2 : Hohlzylinder
+* Verknuepfung1 : rotieren des Hohlzylinders
+* Verknuepfung2 : Hohlzylinder
+* Verknuepfung1 : Schieber
+* Verknuepfung2 : Verdichten ac
+* Verknuepfung1 : Verdichten ac
+* Verknuepfung2 : None
+* Verknuepfung1 : komprimieren von Wasser [gasförmig] [Rotor]
+* Verknuepfung2 : Schieber
+* Verknuepfung1 : dichten des Hohlzylinders
+* Verknuepfung2 : Hohlzylinder
+* Verknuepfung1 : Activity2
+* Verknuepfung2 : Schieber
+*/!!
+
+*/ Ende der Ausgabe
