@@ -64,9 +64,12 @@ class SysML_Schnittstelle:
         IDName = []
 
         for elemente in NeueAnforderungen:
-            GesplitteterInhalt = elemente.split("//")
-            InhaltAnforderung.append(GesplitteterInhalt[0])
-            IDName.append(GesplitteterInhalt[1])
+            try:
+                GesplitteterInhalt = elemente.split("//")
+                InhaltAnforderung.append(GesplitteterInhalt[0])
+                IDName.append(GesplitteterInhalt[1])
+            except:
+                print('Es wurden Zeilen ohne ID gefunden')
 
         Bool_Inside = 0
         Bool_Documentation = 0

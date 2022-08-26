@@ -12725,7 +12725,7 @@
 																<UML:Stereotype name="requirement"/>
 															</UML:ModelElement.stereotype>
 															<UML:ModelElement.taggedValue>
-																<UML:TaggedValue tag="documentation" value="Der Verdichter muss eine Eigenschmierung mit Wasser vorsehen."/>
+																<UML:TaggedValue tag="documentation" value="*"/>
 																<UML:TaggedValue tag="isAbstract" value="false"/>
 																<UML:TaggedValue tag="isSpecification" value="false"/>
 																<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -12980,7 +12980,7 @@
 																<UML:Stereotype name="requirement"/>
 															</UML:ModelElement.stereotype>
 															<UML:ModelElement.taggedValue>
-																<UML:TaggedValue tag="documentation" value="Die Werkstoffe des Verdichters muessen gegen die Sattdampftemperatur bestaendig sein (120 Grad Celsius)."/>
+																<UML:TaggedValue tag="documentation" value="Der Verdichter muss eine Eigenschmierung mit Wasser vorsehen."/>
 																<UML:TaggedValue tag="isAbstract" value="false"/>
 																<UML:TaggedValue tag="isSpecification" value="false"/>
 																<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -13203,7 +13203,7 @@
 																<UML:Stereotype name="requirement"/>
 															</UML:ModelElement.stereotype>
 															<UML:ModelElement.taggedValue>
-																<UML:TaggedValue tag="documentation" value="Die Temperatur innerhalb einer Zelle darf 170 Grad Celsius nicht ueberschreiten. Sollte dies geschehen gibt es Probleme mit der Abdichtung."/>
+																<UML:TaggedValue tag="documentation" value="Die Werkstoffe des Verdichters muessen gegen die Sattdampftemperatur bestaendig sein (120 Grad Celsius). This requirement is statisfiyed"/>
 																<UML:TaggedValue tag="isAbstract" value="false"/>
 																<UML:TaggedValue tag="isSpecification" value="false"/>
 																<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -13557,7 +13557,7 @@
 																<UML:Stereotype name="requirement"/>
 															</UML:ModelElement.stereotype>
 															<UML:ModelElement.taggedValue>
-																<UML:TaggedValue tag="documentation" value="Der Verdichter muss eine Eigenschmierung mit Wasser vorsehen."/>
+																<UML:TaggedValue tag="documentation" value="Die Temperatur innerhalb einer Zelle darf 170 Grad Celsius nicht ueberschreiten. Sollte dies geschehen gibt es Probleme mit der Abdichtung."/>
 																<UML:TaggedValue tag="isAbstract" value="false"/>
 																<UML:TaggedValue tag="isSpecification" value="false"/>
 																<UML:TaggedValue tag="ea_stype" value="Requirement"/>

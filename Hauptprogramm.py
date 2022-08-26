@@ -3,13 +3,13 @@ import XML_Funktionen as XML
 
 if __name__ == '__main__':
 
-    File = 'Daten/drehschiebeverdichter_v15.xml'
+    File = 'Daten/drehschiebeverdichter_v18.xml'
 
     # XML -> CAD
 
     Projekt_Drehschieber = XML.SysML_Schnittstelle()
-    Projekt_Drehschieber.XML_Lade(File) # Initialbefehl
-    Projekt_Drehschieber.STEPErstellen()
+    Projekt_Drehschieber.XML_Lade(File)     # Initialbefehl
+    # Projekt_Drehschieber.STEPErstellen()
 
     # CAD -> XML
     Hohlzylinder = XML.SysML_Bauteil() # Überlegen
